@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Header } from '../components/common/Header'
-import HeroSlider  from '../components/common/HeroSlide'
+import { HeroSlider }  from '../components/common/HeroSlide'
 import { Home } from '../pages/Home'
 import { Produtos } from '../pages/Produtos'
 import { Footer } from '../components/common/Footer'

@@ -12,7 +12,7 @@ import {
 } from "../ui/Carousel"
 import { useSiteContext } from "../../context/site-context"
 
-export default function HeroSlider() {
+export const HeroSlider = () => {
   const { home } = useSiteContext()
   const [api, setApi] = useState(null)
   const [current, setCurrent] = useState(0)
