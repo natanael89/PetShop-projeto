@@ -9,10 +9,10 @@ import {
   CarouselPrevious,
   CarouselNext,
   CarouselDots,
-} from "../../components/ui/Carousel"
+} from "../../components/ui/Carousel.jsx"
 import { useSiteContext } from "../../context/site-context"
 
-export const HeroSlider = () => {
+export const HeroSlide = () => {
   const { home } = useSiteContext()
   const [api, setApi] = useState(null)
   const [current, setCurrent] = useState(0)

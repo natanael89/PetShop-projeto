@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { Header } from '../components/common/Header'
-import { HeroSlider }  from '../components/common/HeroSlide'
+import { HeroSlide }  from '../components/common/HeroSlide.jsx'
 import { Home } from '../pages/Home'
 import { Produtos } from '../pages/Produtos'
 import { Footer } from '../components/common/Footer'
@@ -18,7 +18,7 @@ function App() {
           <div className='mx-auto'>
            <SiteProvider>
              <Header />
-               <HeroSlider />
+               <HeroSlide />
                 <GalleryProvider>
                   <Routes>
                     <Route path="/" element={<Home />} />
