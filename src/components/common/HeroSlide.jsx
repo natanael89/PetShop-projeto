@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import Button from "../../components/ui/Button"
+import Button from "../ui/Button"
 import { ArrowRight } from "lucide-react"
 import {
   Carousel,
@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
   CarouselNext,
   CarouselDots,
-} from "../../components/ui/Carousel.jsx"
+} from "../ui/Carousel"
 import { useSiteContext } from "../../context/site-context"
 
 export default function HeroSlider() {
