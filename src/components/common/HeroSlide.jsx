@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
   CarouselNext,
   CarouselDots,
-} from "../../components/ui/Carousel.jsx"
+} from "../../components/ui/carousel"
 import { useSiteContext } from "../../context/site-context"
 
 export const HeroSlide = () => {
