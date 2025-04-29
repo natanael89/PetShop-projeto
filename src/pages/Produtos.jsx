@@ -14,7 +14,7 @@ export const Produtos = () => {
                 <TabsList className="grid w-full grid-cols-3 mb-8 bg-gray-200">
                     <TabsTrigger value="tab1">Tosa e Banho</TabsTrigger>
                     <TabsTrigger value="tab2">Ração</TabsTrigger>
-                    <TabsTrigger value="tab3">Acessoírios</TabsTrigger>
+                    <TabsTrigger value="tab3">Acessorios</TabsTrigger>
                 </TabsList>
 
                 <TabsContent value="tab1">
